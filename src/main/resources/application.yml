@@ -1,0 +1,11 @@
+spring:
+  mqtt:
+    client:
+      id: mqttId
+    default:
+      topic: /data/adas
+    password: user1
+    url: tcp://127.0.0.1:1883
+    username: user1
+server:
+  port: 8081
