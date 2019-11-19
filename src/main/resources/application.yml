@@ -6,7 +6,7 @@ spring:
     default:
       topic: /data/adas
     password: user1
-    url: tcp://127.0.0.1:1883
+    url: ws://127.0.0.1:8083/mqtt
     username: user1
 server:
   port: 8081
