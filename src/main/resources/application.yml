@@ -2,6 +2,7 @@ spring:
   mqtt:
     client:
       id: mqttId
+    completionTimeout: 3000
     default:
       topic: /data/adas
     password: user1
