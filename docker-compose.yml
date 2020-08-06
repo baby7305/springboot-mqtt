@@ -1,0 +1,10 @@
+version: '3'
+services:
+  springboot-demo:
+    restart: always
+    build:
+      context: springboot-demo/
+    image: springboot-demo:1.1
+    container_name: super-springboot
+    ports:
+      - "8081:8080"
